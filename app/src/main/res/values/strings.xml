@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BiodataDiri</string>
+    <string name="helloworld">Hello World!!!</string>
+    <string name="fpIkrar">fpIkrar</string>
+    <string name="txtNama">Nama</string>
+    <string name="txtNim">NIM</string>
+    <string name="txtKelas">Kelas</string>
+    <string name="txtJk">Jenis Kelamin</string>
+    <string name="txtTtl">Tempat, Tanggal Lahir</string>
+    <string name="txtAlamat">Alamat</string>
+    <string name="txtGoldar">Golongan Darah</string>
+    <string name="txtFavFood">Makanan Kesukaan</string>
+    <string name="txtFavDrink">Minuman Kesukaan</string>
+    <string name="txtHobi">Hobi</string>
+    <string name="txtFavSong">Lagu Favorit</string>
+    <string name="txtFavMovie">Film Favorit</string>
+    <string name="txtJob">Pekerjaan yang diinginkan setelah kuliah</string>
+
+    <string name="nama">Ikrar Anugrah Bastary</string>
+    <string name="nim">10118033</string>
+    <string name="Kelas">IF-01/S1/VI</string>
+    <string name="jk">Pria</string>
+    <string name="ttl">Bandung, 25 Januari 2000</string>
+    <string name="alamat">Perumahan Bumi Sadang Permai A5 No.49, Cibiru, Bandung</string>
+    <string name="goldar">O</string>
+    <string name="favFood">Sushi</string>
+    <string name="favDrink">Cola</string>
+    <string name="hobi">Gaming and learning stuff</string>
+    <string name="favSong">Melancolia - Caravan Palace</string>
+    <string name="favMovie">Wandavision</string>
+    <string name="job">Not decided yet</string>
+
+    <string name="btnNext">Next</string>
+</resources>

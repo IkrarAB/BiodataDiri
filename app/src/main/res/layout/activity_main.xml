@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/fpIkrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/fpIkrar"
+        app:srcCompat="@drawable/me"
+        />
+
+    <ScrollView
+        android:id="@+id/scrView"
+        android:layout_below="@id/fpIkrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dimen24"
+            android:layout_marginStart="@dimen/dimen24"
+            android:layout_marginRight="@dimen/dimen24"
+            android:layout_marginEnd="@dimen/dimen24"
+            >
+
+            <TextView
+                android:id="@+id/txtNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNama"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtNim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNim"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/nim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nim"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtKelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtKelas"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Kelas"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtJk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtJk"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/jk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jk"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtTtl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTtl"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/ttl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ttl"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtAlamat"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alamat"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtGoldar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtGoldar"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/goldar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goldar"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtFavFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFavFood"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/favFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favFood"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtFavDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFavDrink"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/favDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favDrink"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtHobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtHobi"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/hobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hobi"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtFavSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFavSong"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/favSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favSong"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtFavMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFavMovie"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/favMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favMovie"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+            <TextView
+                android:id="@+id/txtJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtJob"
+                android:textSize="@dimen/dimenTxt16"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="@dimen/dimen12"
+                />
+
+            <TextView
+                android:id="@+id/job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job"
+                android:textSize="@dimen/dimenTxt20"
+                android:textColor="@color/fadedPoster"
+                android:fontFamily="serif-monospace"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

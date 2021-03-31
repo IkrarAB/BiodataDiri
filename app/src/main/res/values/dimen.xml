@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen12">12dp</dimen>
+    <dimen name="dimen24">24dp</dimen>
+    <dimen name="dimen48">48dp</dimen>
+    <dimen name="dimen60">60dp</dimen>
+    <dimen name="dimen120">120dp</dimen>
+    <dimen name="dimenFp500">500dp</dimen>
+
+    <dimen name="dimenTxt12">12sp</dimen>
+    <dimen name="dimenTxt16">16sp</dimen>
+    <dimen name="dimenTxt20">20sp</dimen>
+    <dimen name="dimenTxt24">24sp</dimen>
+    <dimen name="dimenTxt48">48sp</dimen>
+    <dimen name="dimenTxt60">60sp</dimen>
+    <dimen name="dimenTxt120">120sp</dimen>
+</resources>
